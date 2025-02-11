@@ -1,1 +1,17 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "vscode-icons-team.vscode-icons",
+                "formulahendry.code-runner"
+            ],
+            "settings": {
+                "editor.fontSize": 32,
+                "terminal.integrated.fontSize": 24,
+                "editor.wordWrap": "on"
+            }
+        }
+    }
+}
